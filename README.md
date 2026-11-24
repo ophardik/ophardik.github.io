@@ -21,8 +21,8 @@ npm run build    # → ./dist
 npm run preview
 ```
 
-## Deploy (Netlify)
-`netlify.toml` is included: build command `npm run build`, publish directory `dist`.
+## Deploy
+Pushing to `main` deploys to GitHub Pages (https://ophardik.github.io) via `.github/workflows/deploy.yml`. `netlify.toml` is kept if you prefer Netlify.
 
 ## Editing content
 - Projects: `src/components/SWork.astro` (`info`) + cover images in `public/assets/images/`
